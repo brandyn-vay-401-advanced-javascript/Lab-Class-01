@@ -4,7 +4,9 @@
   "description": "this will be sooooo cool",
   "main": "index.js",
   "scripts": {
-    "test": "jest --verbose --coverage"
+    "start": "node index.js",
+    "test": "jest --verbose --coverage",
+    "lint": "eslint **/*.js/"
   },
   "author": "",
   "license": "ISC",
